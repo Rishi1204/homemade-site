@@ -150,12 +150,12 @@ button:hover {
 }
 
 @media only screen and (max-width: 600px) {
-	html {
+	/* html {
 		height: 100%;
 	}
 	body {
 		min-height: 100%;
-	}
+	} */
 	#banner,
 	#bottom-banner {
 		min-height: 40px;
