@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Homemade Mumbai</title>
+        <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+		<link rel="stylesheet" href="../static/index.css"></link>
+	</head>
+	<body class="flex-box">
+        <div id="banner" class="flex-box">
+            <div class="flex-box">
+                We're open & available for delivery!
+            </div>
+        </div>
+		<div id="header" class="flex-box">
+            <div id="homemade-logo" class="flex-box">
+                <img src="../assets/logo.svg" alt="homemade-logo" />
+            </div>
+            <button id="order-btn">
+            ORDER NOW   
+        </button>
+        </div>
+        <div class="flex-box" id="footer">
+            <div id="contact" class="flex-box">
+            <button id="whatsapp-btn" class="contact-btn">
+            WhatsApp  
+        </button>
+        <button id="call-btn" class="contact-btn">
+            Call  
+        </button>
+        </div>
+        <div id="sticker" class="flex-box">
+                <img src="../assets/sticker-1.svg" alt="homemade-logo" />
+            </div>
+        <div id="social" class="flex-box">
+            <button id="instagram-btn" class="social-btn flex-box">
+            <img src="../assets/ig-logo.png" alt="ig-logo" />
+        </button>
+        <button id="facebook-btn" class="social-btn flex-box">
+            <img src="../assets/fb-logo.png" alt="fb-logo" />
+        </button>
+        </div>
+        </div>
+        <div id="bottom-banner" class="flex-box">
+            <div class="flex-box" id="email">
+                <div class="flex-box" id="email-icon">
+                <img src="../assets/email.svg" alt="email-icon" />
+            </div>
+            <a href="mailto:aparnasomani@gmail.com">aparnasomani@gmail.com</a>
+            </div>
+        </div>
+        <script>
+            const ORDER_URL = 'https://thrivenow.in/homemade-juhu';
+            const WHATSAPP_URL = 'https://wa.me/+919819439800';
+            const CALL_URL = 'tel:9819439800';
+            const INSTAGRAM_URL = 'https://www.instagram.com/homemademumbai/';
+            const FACEBOOK_URL = 'https://www.facebook.com/homemade99/';
+            var orderBtn = document.getElementById("order-btn");
+            orderBtn.onclick = function() {
+                window.location.href=ORDER_URL;
+            };
+            var callBtn = document.getElementById("call-btn");
+            callBtn.onclick = function() {
+                window.location.href=CALL_URL;
+            };
+            var contactBtn = document.getElementById("whatsapp-btn");
+            contactBtn.onclick = function() {
+                window.location.href=WHATSAPP_URL;
+            };
+            var instagramBtn = document.getElementById("instagram-btn");
+            instagramBtn.onclick = function() {
+                window.location.href=INSTAGRAM_URL;
+            };
+            var facebookBtn = document.getElementById("facebook-btn");
+            facebookBtn.onclick = function() {
+                window.location.href=FACEBOOK_URL;
+            };
+        </script>
+	</body>
+</html>
