@@ -139,6 +139,11 @@ button:hover {
 	height: 20px;
 }
 
+#email-icon img {
+	height: 100%;
+	width: 100%;
+}
+
 #email {
 	width: 250px;
 	justify-content: space-evenly;
