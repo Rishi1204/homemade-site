@@ -45,6 +45,7 @@ a {
 #homemade-logo {
 	height: 80%;
 	width: 80%;
+	opacity: 0;
 	animation: fadeIn ease-in 0.75s;
 }
 
