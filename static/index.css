@@ -45,6 +45,7 @@ a {
 #homemade-logo {
 	height: 80%;
 	width: 80%;
+	animation: fadeIn ease-in 0.75s;
 }
 
 #sticker {
@@ -162,6 +163,10 @@ button:hover {
 	}
 	#header {
 		height: inherit;
+		height: 500px;
+	}
+	#homemade-logo {
+		width: 100%;
 	}
 	#order-btn {
 		margin: 20px;
@@ -179,7 +184,7 @@ button:hover {
 	}
 	#sticker {
 		padding: 10px 0px 10px 0px;
-		width: 50%;
+		width: 40%;
 	}
 	#contact,
 	#social {
@@ -188,5 +193,14 @@ button:hover {
 	.contact-btn {
 		font-size: 14px;
 		min-width: 100px;
+	}
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
 	}
 }
