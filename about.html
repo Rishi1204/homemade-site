@@ -39,7 +39,7 @@
         <button id="facebook-btn" class="social-btn flex-box">
             <img src="assets/fb-logo.png" alt="fb-logo" />
         </button>
-        <button id="facebook-btn" class="social-btn flex-box" onclick="javascript:history.back()">
+        <button id="home-btn" class="social-btn flex-box">
             <img src="assets/home.svg" alt="home-logo" />
         </button>
         </div>
@@ -55,7 +55,7 @@
         <script>
             const INSTAGRAM_URL = 'https://www.instagram.com/homemademumbai/';
             const FACEBOOK_URL = 'https://www.facebook.com/homemade99/';
-            // const HOME_URL = 'homemade-site/index.htmlwindow.history.go(-1)';
+            const HOME_URL = 'index.html';
             var instagramBtn = document.getElementById("instagram-btn");
             instagramBtn.onclick = function() {
                 window.location.href=INSTAGRAM_URL;
@@ -64,10 +64,10 @@
             facebookBtn.onclick = function() {
                 window.location.href=FACEBOOK_URL;
             };
-            // var homeBtn = document.getElementById("home-btn");
-            // homeBtn.onclick = function() {
-            //     window.location.href=HOME_URL;
-            // };
+            var homeBtn = document.getElementById("home-btn");
+            homeBtn.onclick = function() {
+                window.location.href=HOME_URL;
+            };
         </script>
 	</body>
 </html>

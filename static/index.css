@@ -57,6 +57,7 @@ a {
 }
 
 #header > h1 {
+	font-family: 'Inter', Arial;
 	color: var(--primary);
 }
 #about-info {
@@ -148,7 +149,8 @@ button:hover {
 }
 
 #instagram-btn img,
-#facebook-btn img {
+#facebook-btn img,
+#home-btn img {
 	height: 60%;
 }
 
