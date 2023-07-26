@@ -11,7 +11,7 @@ body {
 	background-color: var(--secondary);
 	/* overflow: hidden; */
 	flex-direction: column;
-	justify-content: space-between;
+	/* justify-content: space-between; */
 }
 
 body::-webkit-scrollbar {
@@ -42,10 +42,30 @@ a {
 	flex-direction: column;
 }
 
+#about-container {
+	width: 60%;
+}
+
 #homemade-logo {
 	height: 80%;
 	width: 90%;
 	animation: fadeIn ease-in 2s;
+}
+
+#aparna-picture {
+	width: 60%;
+}
+
+#header > h1 {
+	color: var(--primary);
+}
+#about-info {
+	text-align: center;
+	color: var(--primary);
+	width: 50%;
+}
+#aparna-picture img {
+	clip-path: circle();
 }
 
 #sticker {
@@ -55,7 +75,8 @@ a {
 }
 
 #homemade-logo img,
-#sticker img {
+#sticker img,
+#aparna-picture img {
 	height: 100%;
 	width: 100%;
 }
@@ -163,7 +184,7 @@ button:hover {
 	}
 	#header {
 		height: inherit;
-		height: 500px;
+		/* height: 500px; */
 	}
 	#homemade-logo {
 		width: 100%;
@@ -197,6 +218,19 @@ button:hover {
 	.contact-btn {
 		font-size: 14px;
 		min-width: 100px;
+	}
+	#about-container {
+		flex-direction: column;
+		width: 90%;
+	}
+	#about-info {
+		text-align: center;
+		width: 90%;
+		padding-bottom: 10px;
+	}
+	#aparna-picture {
+		width: 100%;
+		padding: 20px 0 40px 0;
 	}
 }
 
